@@ -1,7 +1,0 @@
-numpy
-matplotlib
-pot
-cmcrameri
-tqdm
-ipympl
-ipywidgets
