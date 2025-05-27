@@ -5,3 +5,5 @@ The L2 distance is a commonly used metric in data science to compare similarity 
 Check out the animation below. The L2 distance quickly saturates as the bulk of the two Gaussian blobs stop overlapping, while the Wasserstein distance increases at the same rate as their separation.
 
 ![Animation of result](output.gif)
+
+This is a simple toy example where the only change is that the two distributions increase in spatial separation. However, we could also imagine the width of the Gaussians increasing with distance (or changing into some other shape entirely). The L2 distance would have no idea this was happening, while the Wasserstein distance would be able to quantify the difference this makes to the distributions' similarity.
